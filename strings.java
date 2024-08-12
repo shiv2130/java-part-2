@@ -5,6 +5,6 @@ public class strings {
          String name = sc.nextLine();
          System.out.println("Your name is: " + name);
          System.out.println(name.length());
-         
+        //strings are immutable
     }
 }
