@@ -37,7 +37,19 @@ public class strings2 {
         System.out.println(newSb);
 
         //reverse string
-        
+        for (int i = 0; i<newSb.length()/2; i++) {
+            int front = i;
+            int back = newSb.length() - 1 - i;  //5-1-0 => 4 
+            char frontChar = newSb.charAt(front);
+            char backChar = newSb.charAt(back);
+
+            newSb.setCharAt(front, backChar);
+            newSb.setCharAt(back, frontChar);
+        }
+
+        System.out.println(newSb);
+
+
 
     }
 }
