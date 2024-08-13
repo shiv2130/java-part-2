@@ -43,6 +43,7 @@ public class strings2 {
             char frontChar = newSb.charAt(front);
             char backChar = newSb.charAt(back);
 
+            //replacing of front and back characters
             newSb.setCharAt(front, backChar);
             newSb.setCharAt(back, frontChar);
         }
