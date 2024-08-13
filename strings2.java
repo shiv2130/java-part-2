@@ -9,7 +9,7 @@ public class strings2 {
 
         //set char at index 1
 
-        
+
         sb.setCharAt(0 , 'H' );
         System.out.println(sb);
 
@@ -24,6 +24,20 @@ public class strings2 {
         sb.delete(1, 2);
         System.out.println(sb);
 
+        //using append function
+
+        StringBuilder newSb = new StringBuilder("h");
+        System.out.println(newSb);
+
+        newSb.append("e");
+        newSb.append("l");
+        newSb.append("l");
+        newSb.append("o");
+
+        System.out.println(newSb);
+
+        //reverse string
+        
 
     }
 }
