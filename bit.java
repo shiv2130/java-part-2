@@ -29,5 +29,6 @@ public class bit {
         int newNumber = newBitMask & n;
         System.out.println(newNumber);
         
+        
     }
 }
